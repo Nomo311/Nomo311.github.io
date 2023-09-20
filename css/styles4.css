@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    background-color: #212429;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+  
+  @font-face {
+    font-family: roboL;
+    src: url(/css/Roboto/Roboto-Light.ttf);
+  }
+  @font-face {
+    font-family: roboB;
+    src: url(/css/Roboto/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: roboBI;
+    src: url(/css/Roboto/Roboto-BoldItalic.ttf);
+  }
+  
+  @font-face {
+    font-family: loraI;
+    src: url(/css/Lora/Lora-Italic.ttf);
+  }
+  @font-face {
+    font-family: loraB;
+    src: url(/css/Lora/Lora-Bold.ttf);
+  }
+  @font-face {
+    font-family: loraBI;
+    src: url(/css/Lora/Lora-SemiBoldItalic.ttf);
+  }
+  
+  @font-face {
+    font-family: mac;
+    src: url(/css/Marshmallow/Marshmallows\ and\ Chocolate\ -\ TTF.ttf);
+  }
+  
+  header {
+    border-top: 16px inset black;
+    border-bottom: 16px inset black;
+    height: 200px;
+    background-color: #343945;
+    display: flex;
+  }
+  
+  .currentPage {
+    min-height: 5px;
+    position: absolute;
+    margin-top: 3%;
+    /* margin-top: 3.5%; */
+    margin-left: 15%;
+    /* background-color: crimson; */
+  }
+  .currentPage p {
+    font-size: 72px;
+    /* font-size: 52px; */
+    font-family: roboBI;
+  }
+  
+  .me_icon {
+    margin: 0 auto;
+    background-position: center;
+    width: 200px;
+    min-height: 200px;
+  }
+  .me_icon .circle {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .me_icon .circle img {
+    height: 40%;
+    margin: 0 auto;
+    margin-left: 14.5%;
+    margin-top: 8%;
+    position: relative;
+  }
+  
+  .meAVI {
+    border-radius: 50%;
+    border: 4px inset black;
+    /* display: flex; */
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  }
+  
+  nav {
+    height: 0;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5.3%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  
+  nav a {
+    color: #7c8ea6;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: roboL;
+  }
+  
+  /* 
+  body color */
+  .wrapper {
+    display: flex;
+    margin-left: 2.5%;
+    height: 70.75%;
+    width: 97.5%;
+    background-color: #212429;
+  }
+  
+  .socials {
+    margin-top: 50px;
+    margin-left: 970px;
+    height: 250px;
+    width: 350px;
+    /* background-color: royalblue; */
+    position: relative;
+  }
+  /* 
+  organize each social link. */
+  .wrapperS {
+    margin-top: 28px;
+    margin-left: 15px;
+    display: flex;
+  }
+  .wrapperS a {
+    text-decoration: none;
+  }
+  
+  .wrapperS img {
+    height: 38px;
+    /* background-color: red; */
+  }
+  .wrapperS h3 {
+    font-family: roboB;
+    text-decoration: none;
+    margin-top: -40px;
+    margin-left: 68px;
+    font-size: 28px;
+    /* font-family: roboL; */
+    color: #212429;
+  }
+  /* 
+  organize input boxes. */
+  .textBoxes {
+    height: 70.75%;
+    margin: 0 auto;
+    /* margin-left: 0%;
+    margin-right: 0%; */
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #565b66;
+  }
+  
+  .textBoxes input {
+    font-family: loraI;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    background-color: whitesmoke;
+  }
+  div .textBoxes .putName {
+    margin-top: 50px;
+    /* margin-left: 105px; */
+    height: 50px;
+    width: 600px;
+    font-size: 24px;
+  }
+  div .textBoxes .putNumber {
+    margin-top: 50px;
+    /* margin-left: 105px; */
+    height: 50px;
+    width: 600px;
+    font-size: 24px;
+  }
+  div .textBoxes .putEmail {
+    margin-top: 50px;
+    /* margin-left: 105px; */
+    height: 50px;
+    width: 600px;
+    font-size: 24px;
+  }
+  div .textBoxes .putMessage {
+    margin-top: 50px;
+    margin-right: 50px;
+    /* margin-left: 105px; */
+    height: 150px;
+    width: 1000px;
+    font-size: 20px;
+  }
+  div .textBoxes .submit {
+    margin-top: 50px;
+    margin-left: 375px;
+    height: 35px;
+    width: 275px;
+    font-size: 20px;
+    font-family: loraB;
+    border-radius: 30px;
+  }
+  
+  .BLM {
+    border-top: 8px inset black;
+    height: 15%;
+    background-color: #212429;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: -25%;
+  }
+  .BLM img {
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    margin-left: 48.5%;
+  }
+  
