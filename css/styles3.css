@@ -5,7 +5,7 @@
   }
   html,
   body{
-    height: 130%;
+    height: 150%;
     /*height: 1214px;*/
     background-color: #343945;
   }
@@ -57,7 +57,7 @@
     font-family: mac;
     src: url(/css/Marshmallow/Marshmallows\ and\ Chocolate\ -\ TTF.ttf);
   }
-
+  
   header {
     border-top: 16px inset black;
     border-bottom: 16px inset black;
@@ -127,26 +127,76 @@
     font-family: roboL;
   }
 
+  .wrapper {
+    color: #7c8ea6;
+    width: 65%;
+    margin: 0 auto;
+    margin-left: 17.5%;
+    margin-top: 2%;
+    position: relative;
+    /*
+    background-color: blue;
+    */
+  }
+
   .project {
-    width: 817px;
+    width: 100%;
+    /*
     background-color: aqua;
+    */
     min-height: 100px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 3%;
+    border-top: 16px inset black;
+    border-bottom: 16px inset black;
+    border-left: 16px inset black;
+    border-right: 16px inset black;
+
+
   }
 
   .project .project-image {
-    width: 224px;
-    min-height: 50px;
+    height: 100%;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    min-height: 100%;
+    min-width: 65%;
+    /*
     background-color: beige;
+*/
   }
 
   .project .project-text {
-    width: 513px;
+    margin-top: 1%;
+    margin-right: 2%;
     min-height: 50px;
+    /*
     background-color: lightgreen;
     /* margin-left: 80px; */
+  }
+
+  .project .project-text h2 {
+    font-size: 32px;
+    font-family: LoraB;
+  }
+  
+  .project .project-text h3 {
+    font-size: 20px;
+    font-family: LoraM;
+  }
+
+  .project .project-text p {
+    font-size: 18px;
+    font-family: LoraM;
+  }
+
+  .project .project-text a {
+    text-decoration: none;
+    color: #7c8ea6;
+    font-size: 18px;
+    font-family: LoraM;
   }
 
   .owner-pic {
@@ -155,11 +205,35 @@
     background-size: cover;
   }
 
-  .wrapper {
-    margin-top: 0%;
-    display: inline-flex;
+  .picFIX {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    }
+
+  .project-image img {
+    height: 100%;
+    max-width: 100%;
     margin: 0 auto;
-    margin-left: 25%;
-    position: relative;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    position: center;
+    padding: 10px;
+  }
+
+  .BLM {
+    border-top: 8px inset black;
+    height: 15%;
+    background-color: #212429;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: -25%;
+  }
+  
+  .BLM img {
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    margin-left: 48.5%;
   }
 
