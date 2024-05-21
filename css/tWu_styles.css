@@ -1,0 +1,54 @@
+
+#aboveHeader {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+#belowHeader {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: indianred;
+    margin-bottom: 10px;
+}
+
+#mainOne {
+    justify-self: center;
+    width: 600px;
+    background-color: indianred;
+}
+
+#mainTwo {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    min-width: 600px;
+}
+
+.services {
+    width: 150px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+img {
+    width: 100px;
+}
+
+
+header {
+    background-color: red;
+}
+
+main {
+    background-color: blue;
+}
+
+footer {
+    background-color: green;
+    height: 200px;
+}
+
+body {
+    background-color: #333333;
+}
