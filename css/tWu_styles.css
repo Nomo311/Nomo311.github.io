@@ -2,13 +2,37 @@
 #aboveHeader {
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #7032cb;
+    font-size: 22px;
+}
+
+#logo_text {
+    display: flex;
+    padding-right: 50%;
+}
+
+#demo_logo {
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+    padding-top: 26px;
+}
+
+#contact_border {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#quick_contact {
+    display: flex;
 }
 
 #belowHeader {
     display: flex;
     justify-content: space-evenly;
-    background-color: indianred;
+    background-color: #7032cc;
     margin-bottom: 10px;
 }
 
@@ -21,14 +45,42 @@
 #mainTwo {
     display: flex;
     justify-content: space-around;
-    max-width: 800px;
-    min-width: 600px;
+    max-width: 1000px;
+    min-width: 800px;
+    padding-bottom: 20px;
 }
 
 .services {
-    width: 150px;
+    width: 200px;
     justify-content: center;
-    background-color: bisque;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: solid #444444;
+    border-radius: 2px;
+    background-color: #fedeff;;
+    text-align: center;
+}
+
+#para_descript {
+    text-align: left;
+}
+
+#belowFooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #5832cc;
+    font-size: 22px;
+}
+
+#left_footer {
+    padding-right: 50%;
+}
+
+#right_footer h4 {
+    padding-top: 50px;
+    text-align: right;
 }
 
 img {
@@ -41,10 +93,17 @@ header {
 }
 
 main {
-    background-color: blue;
+    background-color: #e9e9ff;
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 footer {
+    margin-top: 20px;
     background-color: green;
     height: 200px;
 }
