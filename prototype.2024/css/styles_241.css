@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 130%;
+  /*height: 1214px;*/
+  background-color: #343945;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: roboL;
+  src: url(/css/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: roboB;
+  src: url(/css/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: roboBI;
+  src: url(/css/Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: loraI;
+  src: url(/css/Lora/Lora-Italic.ttf);
+}
+@font-face {
+  font-family: loraB;
+  src: url(/css/Lora/Lora-Bold.ttf);
+}
+@font-face {
+  font-family: loraBI;
+  src: url(/css/Lora/Lora-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: loraR;
+  src: url(/css/Lora/Lora-Regular.ttf);
+}
+@font-face {
+  font-family: loraM;
+  src: url(/css/Lora/Lora-Medium.ttf);
+}
+
+@font-face {
+  font-family: mac;
+  src: url(/css/Marshmallow/Marshmallows\ and\ Chocolate\ -\ TTF.ttf);
+}
+
+/* HOME PAGE */
+
+header {
+  border-top: 16px inset black;
+  border-bottom: 16px inset black;
+  height: 200px;
+  background-color: #343945;
+  display: flex;
+}
+
+.outterBorder {
+  background-color: #999999;
+  /*height: 100%;*/
+  width: 74%;
+  margin-left: 13%;
+}
+
+.innerBorder {
+  background-color: #777777;
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 2%;
+}
+
+.greatestHits {
+  display: flex;
+  background-color: #333333;
+  height: 35%;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.projectTitle {
+  height: 100%;
+  width: 250%;
+  background-color: #444444;
+}
+
+.greatestPics {
+  height: 60%;
+  width: 100%;
+}
+
+.projectTitle img {
+  height: 75%;
+  width: 90%;
+  background-color: #444444;
+}
+
+.greatestDesc {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 250%;
+  font-size: 16px;
+  background-color: #555555;
+}
+
+.clumpTitles p{
+  margin-bottom: 5px;
+}
+
+.clumpTitles{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
