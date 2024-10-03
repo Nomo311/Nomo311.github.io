@@ -68,4 +68,45 @@ header {
   display: flex;
 }
 
+.pictureNtext {
+  display: flex;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin: 0 auto;
+  background-color: red;
+}
 
+.textNdesc {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.textNdesc h1 {
+  font-size: 92px;
+  padding-bottom: 1%;
+}
+
+.textNdesc h3 {
+  font-size: 42px;
+  padding-bottom: 2%;
+}
+
+.textNdesc p {
+  font-size: 32px;
+  padding-bottom: 1%;
+}
+
+.meSocials {
+  display: flex;
+  width: 50%;
+  padding-top: 1%;
+  justify-content: space-between;
+}
+
+.meSocials img {
+  height: 102px;
+  width: 102px;
+}

@@ -58,5 +58,46 @@ p {
   src: url(/css/Marshmallow/Marshmallows\ and\ Chocolate\ -\ TTF.ttf);
 }
 
+body {
+  height: 100%;
+  background-color: black;
+  /* make background "absolute"*/
+}
+
+.canvasBorder{
+  height: 90%;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1%;
+  padding-left: 12%;
+  padding-right: 12%;
+  background-position: center;
+  background-color: red;
+}
+
+.imageTitle h1 {
+  font-size: 56px;
+}
+
+.galleryPiece {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-position: center;
+}
+
+.imageDescription {
+  padding-top: 3%;
+}
+
+.imageDescription p {
+  font-size: 28px;
+}
+
+footer {
+  background-color: white;
+  height: 10%;
+}
+
 /* GALLERY ITEMS TEMPLATE */
 
