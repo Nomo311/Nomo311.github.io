@@ -62,10 +62,10 @@ body {
   height: 100%;
   background-color: black;
   /* make background "absolute"*/
+  font-family: roboL;
 }
 
 .canvasBorder{
-  height: 90%;
   width: 80%;
   margin: 0 auto;
   padding-top: 1%;
@@ -75,8 +75,13 @@ body {
   background-color: red;
 }
 
+.canvasBorder img {
+  border-radius: 6px;
+}
+
 .imageTitle h1 {
   font-size: 56px;
+  font-family: roboB;
 }
 
 .galleryPiece {
@@ -95,8 +100,29 @@ body {
 }
 
 footer {
-  background-color: white;
-  height: 10%;
+  border-top: 16px inset black;
+  border-bottom: 16px inset black;
+  margin-top: 6%;
+}
+
+.aboutFooter {
+  width: 64%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.miscFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.miscContent {
+  text-align: center;
+  background-color: aqua;
 }
 
 /* GALLERY ITEMS TEMPLATE */

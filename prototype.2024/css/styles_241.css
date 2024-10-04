@@ -68,11 +68,63 @@ header {
   display: flex;
 }
 
+.currentPage {
+  min-height: 5px;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+.currentPage p {
+  font-size: 72px;
+  font-family: roboB;
+}
+
+nav {
+  height: 0;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4.5%;
+  margin-left: 60%;
+  position: absolute;
+}
+
+nav a {
+  color: #7c8ea6;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: roboL;
+}
+
+.introduction {
+  margin: 0 auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  margin-left: 11.5%;
+  width: 70%;
+  height: 65%;
+}
+
+.introduction h2 {
+  font-size: 48px;
+  font-family: roboL;
+  margin-top: -18px;
+}
+
+.introduction p {
+  font-size: 24px;
+  font-family: roboL;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .outterBorder {
   background-color: #999999;
-  /*height: 100%;*/
   width: 74%;
   margin-left: 13%;
+  font-family: roboL;
 }
 
 .innerBorder {
@@ -96,7 +148,7 @@ header {
 
 .projectTitle {
   height: 100%;
-  width: 250%;
+  width: 100%;
   background-color: #444444;
 }
 
@@ -106,24 +158,51 @@ header {
 }
 
 .projectTitle img {
-  height: 75%;
-  width: 90%;
+  max-width: 100%;
+  margin-left: ;
+  border-radius: 5px;
   background-color: #444444;
 }
 
 .greatestDesc {
   padding-left: 2%;
   padding-right: 2%;
-  width: 250%;
+  width: 100%;
   font-size: 16px;
   background-color: #555555;
 }
 
-.clumpTitles p{
+.clumpCategories p{
   margin-bottom: 5px;
 }
 
-.clumpTitles{
+.clumpText {
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+footer {
+  border-top: 16px inset black;
+  border-bottom: 16px inset black;
+  margin-top: 6%;
+}
+
+.aboutFooter {
+  width: 64%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.miscFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.miscContent {
+  text-align: center;
+  background-color: aqua;
 }

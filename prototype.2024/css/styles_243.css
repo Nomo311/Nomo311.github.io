@@ -5,7 +5,7 @@
 }
 html,
 body{
-  height: 130%;
+  height: 96%;
   /*height: 1214px;*/
   background-color: #343945;
 }
@@ -60,22 +60,20 @@ p {
 
 /* ABOUT ME + CONTACT */
 
-header {
-  border-top: 16px inset black;
-  border-bottom: 16px inset black;
-  height: 200px;
-  background-color: #343945;
-  display: flex;
+body {
+  font-family: roboL;
 }
 
 .pictureNtext {
   display: flex;
-  width: 80%;
+  width: 64%;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 3%;
+  padding-right: 3%;
   margin: 0 auto;
+  margin-top: 4%;
+  border-radius: 4px;
   background-color: red;
 }
 
@@ -85,17 +83,18 @@ header {
 }
 
 .textNdesc h1 {
-  font-size: 92px;
+  font-size: 82px;
   padding-bottom: 1%;
+  font-family: roboB;
 }
 
 .textNdesc h3 {
-  font-size: 42px;
+  font-size: 38px;
   padding-bottom: 2%;
 }
 
 .textNdesc p {
-  font-size: 32px;
+  font-size: 24px;
   padding-bottom: 1%;
 }
 
@@ -107,6 +106,33 @@ header {
 }
 
 .meSocials img {
-  height: 102px;
-  width: 102px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+footer {
+  border-top: 16px inset black;
+  border-bottom: 16px inset black;
+  margin-top: 9%;
+}
+
+.aboutFooter {
+  width: 64%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.miscFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.miscContent {
+  text-align: center;
+  background-color: aqua;
 }
