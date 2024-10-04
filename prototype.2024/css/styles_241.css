@@ -114,35 +114,35 @@ nav a {
 
 .introduction h2 {
   font-size: 48px;
-  font-family: roboL;
+  font-family: roboB;
   margin-top: -18px;
+  color: aliceblue;
 }
 
 .introduction p {
-  font-size: 24px;
+  font-size: 32px;
   font-family: roboL;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: #FFFFFF;
 }
 
 .outterBorder {
-  background-color: rgba(153, 153, 153 0.5);
   width: 74%;
   margin-left: 13%;
   font-family: roboL;
 }
 
 .innerBorder {
-  background-color: #777777;
-  height: 100%;
   width: 90%;
   margin-left: 5%;
-  padding-top: 2%;
+  border-radius: 6px;
+  background-color: #242523;
+  opacity: 0.9;
 }
 
 .greatestHits {
   display: flex;
-  background-color: #333333;
   height: 35%;
   width: 98%;
   margin-left: 1%;
@@ -154,7 +154,6 @@ nav a {
 .projectTitle {
   height: 100%;
   width: 100%;
-  background-color: #444444;
 }
 
 .greatestPics {
@@ -173,8 +172,8 @@ nav a {
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
-  font-size: 16px;
-  background-color: #555555;
+  font-size: 18px;
+  color: aliceblue;
 }
 
 .clumpCategories p{
@@ -182,8 +181,13 @@ nav a {
 }
 
 .clumpText {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.clumpText h1 {
+  font-size: 40px;
+  font-family: roboB;
 }
 
 footer {
