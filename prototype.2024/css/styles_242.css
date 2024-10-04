@@ -7,7 +7,9 @@ html,
 body{
   height: 130%;
   /*height: 1214px;*/
-  background-color: #343945;
+  background-image: url("/prototype.2024/images/webColor_pal.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1,
 h2,
@@ -60,23 +62,38 @@ p {
 
 body {
   height: 100%;
-  background-color: black;
   /* make background "absolute"*/
   font-family: roboL;
+  color: aliceblue;
 }
 
 .canvasBorder{
+  height: 105%;
   width: 80%;
   margin: 0 auto;
   padding-top: 1%;
   padding-left: 12%;
   padding-right: 12%;
   background-position: center;
-  background-color: red;
+  background-color: #242523;
+  opacity: 0.9;
 }
 
 .canvasBorder img {
-  border-radius: 6px;
+  border-radius: 8px;
+}
+
+.imageTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+  font-family: roboL;
+}
+
+.imageTitle a {
+  padding-top: 1.6%;
+  text-decoration: none;
+  color: blueviolet;
 }
 
 .imageTitle h1 {
@@ -112,7 +129,6 @@ footer {
   padding-left: 3%;
   padding-right: 3%;
   margin: 0 auto;
-  background-color: red;
 }
 
 .miscFooter {
