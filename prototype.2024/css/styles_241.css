@@ -8,6 +8,9 @@ body{
   height: 130%;
   /*height: 1214px;*/
   background-color: #343945;
+  background-image: url("/prototype.2024/images/webColor_pal.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1,
 h2,
@@ -61,23 +64,24 @@ p {
 /* HOME PAGE */
 
 header {
-  border-top: 16px inset black;
-  border-bottom: 16px inset black;
-  height: 200px;
-  background-color: #343945;
+  height: 84px;
+  background-color: #111111;
   display: flex;
+  color: aliceblue;
+  border-bottom: 4px inset #CCCCCC;
+  opacity: 0.7;
 }
 
 .currentPage {
   min-height: 5px;
   position: absolute;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 15%;
 }
 
 .currentPage p {
-  font-size: 72px;
-  font-family: roboB;
+  font-size: 36px;
+  font-family: roboL;
 }
 
 nav {
@@ -86,13 +90,14 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 4.5%;
+  margin-top: 2%;
   margin-left: 60%;
   position: absolute;
 }
 
 nav a {
   color: #7c8ea6;
+  color: aliceblue;
   text-decoration: none;
   font-size: 26px;
   font-family: roboL;
@@ -121,7 +126,7 @@ nav a {
 }
 
 .outterBorder {
-  background-color: #999999;
+  background-color: rgba(153, 153, 153 0.5);
   width: 74%;
   margin-left: 13%;
   font-family: roboL;
@@ -185,6 +190,7 @@ footer {
   border-top: 16px inset black;
   border-bottom: 16px inset black;
   margin-top: 6%;
+  background-color: aqua;
 }
 
 .aboutFooter {
