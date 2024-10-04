@@ -130,6 +130,28 @@ body a {
   border-radius: 10px;
 }
 
+.textWrapper {
+  width: 188%;
+  justify-content: space-between;
+  /*background-color: aqua;*/
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+.textBox1 {
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.textBox2 {
+  margin-bottom: 1%;
+}
+
+.textBox3 {
+  margin-bottom: 1%;
+}
+
 /*
 
 footer {

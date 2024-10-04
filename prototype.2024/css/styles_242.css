@@ -102,8 +102,8 @@ body {
 }
 
 .galleryPiece {
-  max-height: 100%;
-  max-width: 100%;
+  height: auto;
+  width: 100%;
   margin: 0 auto;
   background-position: center;
 }
