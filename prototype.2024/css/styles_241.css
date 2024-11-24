@@ -202,6 +202,33 @@ nav a {
   margin-top: 10%;
 }
 
+.pictureNtext {
+  display: flex;
+  width: 64%;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+  margin-top: 6%;
+  border-radius: 4px;
+  background-color: #242523;
+  opacity: 0.92;
+}
+
+.meSocials {
+  display: flex;
+  width: 50%;
+  padding-top: 1%;
+  justify-content: space-between;
+}
+
+.meSocials img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
 footer {
   color: aliceblue;
   background-color: #111111;
@@ -222,8 +249,37 @@ footer {
   margin: 0 auto;
   margin-top: 1%;
   border-radius: 4px;
+  background-color: #161616;
+  opacity: 0.92;
+}
+
+.mePortrait {
+  width: 175%;
+  height: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.mePortrait img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+#pictureNtext2 {
+  display: flex;
+  width: 64%;
+  height: 20%;
+  padding-bottom: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+  margin-top: 1%;
+  border-radius: 4px;
+  /*
   background-color: #242523;
-  opacity: 0.8;
+  */
+  background-color: #161616;
 }
 
 form {
@@ -277,6 +333,7 @@ form {
 #textNdesc {
   padding-left: 4%;
   padding-right: 4%;
+  padding-bottom: 3.5%;
 }
 
 #textNdesc h1 {
@@ -298,16 +355,51 @@ form {
 
 #textNdesc p {
   font-size: 24px;
-  padding-bottom: 1%;
+  font-family: roboL;
   color: aliceblue;
   opacity: 1;
 }
 
 #textNdesc a {
-  font-size: 24px;
+  font-size: 28px;
+  font-family: roboB;
+  text-decoration: underline;
+  color: aliceblue;
   margin-top: 4%;
   margin-bottom: 4%;
   opacity: 1;
+}
+
+.commisionsBox {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  height: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: .75%;
+  margin: 0 auto;
+  margin-top: 1%;
+  border-radius: 4px;
+  background-color: #242523;
+  opacity: 1;
+}
+
+.meCommisions {
+  display: flex;
+  width: 67%;
+  margin: 0 auto;
+  margin-top: 1%;
+  justify-content: space-between;
+  /*
+  background-color: #7c8ea6;
+  */
+  }
+
+.meCommisions img {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
 }
 
 .socialsBox {
@@ -321,8 +413,11 @@ form {
   margin: 0 auto;
   margin-top: 1%;
   border-radius: 4px;
+  /*
   background-color: #242523;
-  opacity: 0.8;
+  */
+  background-color: #161616;
+  opacity: 1;
 }
 
 .meSocials {
@@ -354,22 +449,25 @@ form {
   margin: 0 auto;
   margin-top: 1%;
   border-radius: 4px;
+  /*
   background-color: #242523;
+  */
+  background-color: #161616;
   opacity: 0.8;
 }
 
 .meStandards {
   display: flex;
   width: 100%;
-  height: ;
+  height: 15%;
   margin: 0 auto;
   margin-top: 1%;
   justify-content: space-evenly;
   }
 
 .meStandards img {
-  height: 180px;
-  width: 270px;
+  height: 120px;
+  width: 180px;
   border-radius: 10px;
 }
 
@@ -387,27 +485,3 @@ form {
   font-size: 36px;
   font-family: roboL;
 }
-
-/*
-
-.aboutFooter {
-  width: 64%;
-  padding-top: 4%;
-  padding-bottom: 2%;
-  padding-left: 3%;
-  padding-right: 3%;
-  margin: 0 auto;
-  background-color: red;
-}
-
-.miscFooter {
-  display: flex;
-  justify-content: space-around;
-}
-
-.miscContent {
-  text-align: center;
-  background-color: aqua;
-}
-
-*/
