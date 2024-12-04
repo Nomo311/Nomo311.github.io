@@ -5,16 +5,9 @@
 }
 html,
 body{
-  height: 130%;
+  height: 100%;
   /*height: 1214px;*/
-  background-color: #343945;
-  background-image: url("/prototype.2024/images/webColor_pal.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*background-color: #343945; */
 }
 h1,
 h2,
@@ -65,7 +58,7 @@ p {
   src: url(/css/Marshmallow/Marshmallows\ and\ Chocolate\ -\ TTF.ttf);
 }
 
-/* HOME PAGE */
+/* ABOUT ME + CONTACT */
 
 header {
   height: 84px;
@@ -107,109 +100,119 @@ nav a {
   font-family: roboL;
 }
 
-.projectsWork {
-  text-decoration: line-through;
-  color: #888888;
-  /*
-  text-decoration: overline;
-  text-decoration: underline;
-  */
+body {
+  font-family: roboL;
+  background-image: url("/prototype.2024/images/webColor_pal.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.introduction {
+.projectsBox {
+  width: 85%;
+  height: 200%;
+  color: aliceblue;
+  background-color: #000000;
+  border-radius: 4px;
+  opacity: 0.9;
   margin: 0 auto;
   margin-top: 6%;
-  margin-bottom: 6%;
-  margin-left: 11.5%;
-  width: 70%;
-  height: 65%;
+  padding-top: 0.25%;
+  padding-bottom: 5%;
+  float: right;
 }
 
-.introduction h2 {
-  font-size: 48px;
-  font-family: roboB;
-  margin-top: -18px;
-  color: aliceblue;
-}
-
-.introduction p {
-  font-size: 32px;
+.projectsBox h3 {
   font-family: roboL;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  color: #FFFFFF;
+  font-size: 34px;
+  margin-left: 7.5%;
+  padding-top: 4%;
 }
 
-.outterBorder {
-  width: 74%;
-  margin-left: 13%;
-  font-family: roboL;
-}
-
-.innerBorder {
-  width: 90%;
-  margin-left: 5%;
-  border-radius: 6px;
-  background-color: #242523;
-  opacity: 0.9;
-}
-
-.greatestHits {
+.meProjects {
+  width: 85%;
+  height: 15%;
   display: flex;
-  height: 35%;
-  width: 98%;
-  margin-left: 1%;
-  margin-bottom: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  margin: 0 auto;
+  margin-top: 4%;
+  justify-content: space-evenly;
+  background-color: #111111;
 }
 
-.projectTitle {
-  height: 100%;
-  width: 100%;
+.meProjects2 {
+  width: 85%;
+  height: 15%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 4%;
+  justify-content: space-evenly;
+  /* preferred over space around */
+  background-color: #222222;
 }
 
-.greatestPics {
-  height: 60%;
-  width: 100%;
+.meNovels {
+  height: 210px;
+  width: 360px;
+  border-radius: 10px;
+  background-color: red;
 }
 
-.projectTitle img {
-  max-width: 100%;
-  margin-left: ;
-  border-radius: 5px;
-  background-color: #444444;
+.meNovelsD {
+  background-color: blue;
 }
 
-.greatestDesc {
-  padding-left: 2%;
-  padding-right: 2%;
-  width: 100%;
-  font-size: 18px;
-  color: aliceblue;
-}
-
-.clumpCategories p{
-  margin-bottom: 5px;
-}
-
-.clumpText {
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-
-.clumpText h1 {
-  font-size: 40px;
+.meNovels a {
+  font-size: 28px;
   font-family: roboB;
+  text-decoration: none;
+  justify-content: center;
 }
 
-#supermoon_64 {
-  margin-top: 16%;
+.meNovels p {
+  font-size: 14px;
+  font-family: roboL;
+  justify-content: center;
 }
 
-#jiab {
-  margin-top: 10%;
+.meNovels h4 {
+  font-size: 16px;
+  font-family: roboB;
+  justify-content: center;
 }
+
+/*
+.socialsBox {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  height: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: .75%;
+  margin: 0 auto;
+  margin-top: 1%;
+  border-radius: 4px;
+  background-color: #161616;
+  opacity: 1;
+}
+
+.meSocials {
+  display: flex;
+  width: 67%;
+  margin: 0 auto;
+  margin-top: 1%;
+  justify-content: space-between;
+  }
+
+.meSocials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+*/
 
 .pictureNtext {
   display: flex;
@@ -222,7 +225,34 @@ nav a {
   margin-top: 6%;
   border-radius: 4px;
   background-color: #242523;
-  opacity: 0.92;
+  opacity: 0.8;
+}
+
+.textNdesc {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.textNdesc h1 {
+  font-size: 82px;
+  padding-bottom: 1%;
+  font-family: roboB;
+  color: aliceblue;
+  opacity: 1;
+}
+
+.textNdesc h3 {
+  font-size: 38px;
+  padding-bottom: 2%;
+  color: aliceblue;
+  opacity: 1;
+}
+
+.textNdesc p {
+  font-size: 24px;
+  padding-bottom: 1%;
+  color: aliceblue;
+  opacity: 1;
 }
 
 .meSocials {
@@ -246,7 +276,19 @@ footer {
   margin-top: 6%;
   padding-top: 0.25%;
   padding-bottom: 5%;
+  float: right;
 }
+
+/*
+footer {
+  color: aliceblue;
+  background-color: #000000;
+  border-top: 4px inset #CCCCCC;
+  opacity: 0.9;
+  margin-top: 6%;
+  padding-top: 0.25%;
+  padding-bottom: 5%;
+} */
 
 #pictureNtext {
   display: flex;
@@ -258,21 +300,8 @@ footer {
   margin: 0 auto;
   margin-top: 1%;
   border-radius: 4px;
-  background-color: #161616;
-  opacity: 0.92;
-}
-
-.mePortrait {
-  width: 175%;
-  height: 100%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
-.mePortrait img {
-  width: 100%;
-  height: 100%;
-  border-radius: 4px;
+  background-color: #242523;
+  opacity: 0.8;
 }
 
 #pictureNtext2 {
@@ -372,8 +401,8 @@ form {
 #textNdesc a {
   font-size: 28px;
   font-family: roboB;
-  text-decoration: line-through;
-  color: #888888;
+  text-decoration: underline;
+  color: aliceblue;
   margin-top: 4%;
   margin-bottom: 4%;
   opacity: 1;
@@ -403,7 +432,7 @@ form {
   /*
   background-color: #7c8ea6;
   */
-  }
+}
 
 .meCommisions img {
   height: 60px;
@@ -459,14 +488,9 @@ form {
   margin-top: 1%;
   border-radius: 4px;
   /*
-
-  href="https://www.instagram.com/irion_blackbrow/"
-
   background-color: #242523;
-  
-    background-color: #161616;
-  */
-
+  background-color: #161616;
+    */
   opacity: 0.8;
 }
 

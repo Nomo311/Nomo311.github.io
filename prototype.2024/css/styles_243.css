@@ -185,7 +185,7 @@ footer {
   margin: 0 auto;
   margin-top: 1%;
   border-radius: 4px;
-  background-color: #242523;
+  background-color: #161616;
   opacity: 0.8;
 }
 
@@ -390,8 +390,8 @@ form {
   border-radius: 4px;
   /*
   background-color: #242523;
-  */
   background-color: #161616;
+  */
   opacity: 0.8;
 }
 

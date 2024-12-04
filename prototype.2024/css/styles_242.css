@@ -131,13 +131,17 @@ body {
   padding-top: 4%;
 }
 
+.projectDivider {
+  background-color: blueviolet;
+}
+
 .meProjects {
   width: 85%;
   height: 15%;
   display: flex;
   margin: 0 auto;
   margin-top: 4%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #111111;
 }
 
@@ -147,8 +151,39 @@ body {
   display: flex;
   margin: 0 auto;
   margin-top: 4%;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  /* preferred over space around */
   background-color: #222222;
+}
+
+.meNovels {
+  height: 210px;
+  width: 360px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.meNovelsD {
+  background-color: blue;
+}
+
+.meNovels a {
+  font-size: 28px;
+  font-family: roboB;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.meNovels p {
+  font-size: 14px;
+  font-family: roboL;
+  justify-content: center;
+}
+
+.meNovels h4 {
+  font-size: 16px;
+  font-family: roboB;
+  justify-content: center;
 }
 
 /*
@@ -399,7 +434,7 @@ form {
   /*
   background-color: #7c8ea6;
   */
-  }
+}
 
 .meCommisions img {
   height: 60px;
@@ -456,8 +491,8 @@ form {
   border-radius: 4px;
   /*
   background-color: #242523;
-  */
   background-color: #161616;
+    */
   opacity: 0.8;
 }
 
