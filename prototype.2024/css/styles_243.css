@@ -100,6 +100,15 @@ nav a {
   font-family: roboL;
 }
 
+.projectsWork {
+  text-decoration: line-through;
+  color: #888888;
+  /*
+  text-decoration: overline;
+  text-decoration: underline;
+  */
+}
+
 body {
   font-family: roboL;
   background-image: url("/prototype.2024/images/webColor_pal.jpg");
@@ -299,8 +308,8 @@ form {
 #textNdesc a {
   font-size: 28px;
   font-family: roboB;
-  text-decoration: underline;
-  color: aliceblue;
+  text-decoration: line-through;
+  color: #888888;
   margin-top: 4%;
   margin-bottom: 4%;
   opacity: 1;
