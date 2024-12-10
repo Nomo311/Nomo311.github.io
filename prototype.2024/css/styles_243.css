@@ -433,3 +433,35 @@ form {
   font-size: 36px;
   font-family: roboL;
 }
+
+.pictureNtext4 {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 0 auto;
+  margin-top: 2%;
+  border-radius: 6px;
+  background-color: #161616;
+}
+
+.pictureNtext4 h1 {
+  color: aliceblue;
+}
+
+.pictureNtext4 img {
+  border: 4px inset #CCCCCC;
+  margin-bottom: 4%;
+}
+
+.pictureNtext4 p {
+  font-size: 26px;
+  color: #DDDDDD;
+}
+
+
+
+

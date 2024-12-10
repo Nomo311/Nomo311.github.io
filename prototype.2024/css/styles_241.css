@@ -160,8 +160,9 @@ nav a {
   width: 98%;
   margin-left: 1%;
   margin-bottom: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  align-items: center;
 }
 
 .projectTitle {
@@ -176,9 +177,10 @@ nav a {
 
 .projectTitle img {
   max-width: 100%;
-  margin-left: ;
+  margin-left: auto;
   border-radius: 5px;
   background-color: #444444;
+
 }
 
 .greatestDesc {
@@ -200,6 +202,7 @@ nav a {
 
 .clumpText a {
   text-decoration: none;
+  text-decoration: underline;
   color: #BBBBBB;
 }
 
@@ -504,3 +507,35 @@ form {
   font-size: 36px;
   font-family: roboL;
 }
+
+
+
+/* POST LAUNCH TESTING */
+
+/*
+
+.projectTitle {
+  background-color: red;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.projectTitle img {
+  max-height: 100%;
+  max-width: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.greatestDesc {
+  background-color: blue;
+}
+
+*/
+
+
+
